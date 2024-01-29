@@ -16,15 +16,16 @@
 <body>
     <div class="weather-app">
         <header>
-            <form class="city-search">
-                <input type="search" placeholder="Enter a city..." required class="city-search-input" />
+            <form class="city-search" id="city-search-form">
+                <input type="search" placeholder="Enter a city..." required class="city-search-input"
+                    id="city-search-form-input" />
                 <input type="submit" value="Search" class="city-search-submit" />
             </form>
         </header>
         <main>
             <div class="date"> saturday 27th january</div>
             <div class="current-city-temp">
-                <h1 class="current-city"> London </h1>
+                <h1 class="current-city" id="city"> London </h1>
                 <div class="current-temp">
                     <div class="current-temp-value">10</div>
                     <div class="current-temp-unit">°C </div>
@@ -48,6 +49,7 @@
             <a href="https://www.netlify.com/" target="blank"> Netlify</a>
         </footer>
     </div>
+    <script src="src/index.js"></script>
 
 </body>
 

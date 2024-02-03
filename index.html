@@ -24,20 +24,32 @@
             </form>
         </header>
         <main>
-            <div class="date"> saturday 27th january</div>
-            <div class="current-city-temp">
-                <h1 class="current-city" id="city"> London </h1>
-                <div class="current-temp">
-                    <div class="current-temp-value" id="temperature">10</div>
-                    <div class="current-temp-unit">°C </div>
+            <div class="date" id="date"></div>
+            <div class="city-temp">
+                <h1 class="city" id="city"> London </h1>
+                <div class="temp">
+                    <div class="temp-value" id="temperature">10</div>
+                    <div class="temp-unit">°C </div>
                 </div>
             </div>
-            <div class="current-city-weather">
+            <div class="city-weather">
 
                 <span class="material-symbols-outlined">
                     cloud
                 </span>
-                <div class="current-weather"> cloudy </div>
+                <span class="weather-description" id="weather-description"></span>
+            </div>
+            <div class="city-humidity">
+                <span class="material-symbols-outlined">
+                    heat
+                </span>
+                <span class="humidity" id="humidity"></span>
+            </div>
+            <div class="city-wind">
+                <span class="material-symbols-outlined">
+                    air
+                </span>
+                <span class="wind" id="wind"></span>
             </div>
 
         </main>

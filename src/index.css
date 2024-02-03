@@ -42,45 +42,58 @@ header {
   color: #fcfdfe;
 }
 
-.current-city-temp {
+.city-temp {
   display: flex;
   justify-content: space-between;
 }
 
-.current-city {
+.city {
   font-size: 88px;
   margin-top: 10px;
   font-size: 60px;
 }
 
-.current-temp {
+.temp {
   display: flex;
 }
 
-.current-temp-value {
+.temp-value {
   font-size: 100px;
   margin-left: 10px;
   margin-top: -30px;
 }
 
-.current-temp-unit {
+.temp-unit {
   margin-top: 30px;
   font-size: 30px;
 }
 
-.current-city-weather {
+.city-weather {
   display: flex;
   margin-top: -20px;
 }
 
-.current-weather {
+.weather-description {
   margin-left: 10px;
   margin-bottom: 10px;
 }
 
+.humidity {
+  margin-left: 5px;
+  margin-top: -50px;
+  padding-top: -50px;
+}
+
+.wind {
+  margin-left: 5px;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+
 footer {
   border-top: 1px solid #fcfdfe;
-  padding: 30px 0 0 0;
+  margin-top: 10px;
+  padding: 50px 0 0 0;
   text-align: center;
   font-size: 13px;
   color: #fcfdfe;

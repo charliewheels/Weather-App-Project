@@ -25,11 +25,12 @@ body {
 
 header {
   border-bottom: 1px solid #fcfdfe;
-  padding: 0 0 20px 0;
+  padding: 0 0 30px 0;
 }
 
 .date {
-  margin-top: 10px;
+  margin-top: -30px;
+  text-align: right;
 }
 
 .weather-app {
@@ -60,7 +61,7 @@ header {
 .temp-value {
   font-size: 100px;
   margin-left: 10px;
-  margin-top: -30px;
+  margin-top: -10px;
 }
 
 .temp-unit {
@@ -74,26 +75,31 @@ header {
 }
 
 .weather-description {
-  margin-left: 10px;
+  margin-top: -15px;
   margin-bottom: 10px;
+  margin-left: -20px;
+}
+
+.icon {
+  margin-left: -35px;
+  margin-top: -55px;
+  transform: scale(0.5);
+}
+
+.humidityWind {
+  margin-top: -30px;
+  margin-bottom: 20px;
 }
 
 .humidity {
-  margin-left: 5px;
-  margin-top: -50px;
-  padding-top: -50px;
-}
-
-.wind {
-  margin-left: 5px;
-  margin-top: -50px;
+  margin-top: -20px;
   margin-bottom: 20px;
 }
 
 footer {
   border-top: 1px solid #fcfdfe;
   margin-top: 10px;
-  padding: 50px 0 0 0;
+  padding: 30px 0 0 0;
   text-align: center;
   font-size: 13px;
   color: #fcfdfe;

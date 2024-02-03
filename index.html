@@ -22,9 +22,9 @@
                     id="city-search-form-input" />
                 <input type="submit" value="Search" class="city-search-submit" />
             </form>
+            <div class="date" id="date"></div>
         </header>
         <main>
-            <div class="date" id="date"></div>
             <div class="city-temp">
                 <h1 class="city" id="city"> London </h1>
                 <div class="temp">
@@ -33,24 +33,26 @@
                 </div>
             </div>
             <div class="city-weather">
-
-                <span class="material-symbols-outlined">
-                    cloud
+                <span class="icon" id="icon">
                 </span>
                 <span class="weather-description" id="weather-description"></span>
             </div>
-            <div class="city-humidity">
-                <span class="material-symbols-outlined">
-                    heat
-                </span>
-                <span class="humidity" id="humidity"></span>
+            <div class="humidityWind">
+                <div class="city-humidity">
+                    <div class="material-symbols-outlined">
+                        heat
+                    </div>
+                    <span class="humidity" id="humidity"></span>
+                </div>
+                <div class="city-wind">
+                    <div class="material-symbols-outlined">
+                        air
+                    </div>
+                    <span class="wind" id="wind"></span>
+                </div>
             </div>
-            <div class="city-wind">
-                <span class="material-symbols-outlined">
-                    air
-                </span>
-                <span class="wind" id="wind"></span>
-            </div>
+
+
 
         </main>
         <footer class="footer"> Coded by

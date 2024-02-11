@@ -50,8 +50,8 @@ header {
 
 .city {
   font-size: 88px;
-  margin-top: 10px;
   font-size: 60px;
+  margin: 0;
 }
 
 .temp {
@@ -60,40 +60,42 @@ header {
 
 .temp-value {
   font-size: 100px;
-  margin-left: 10px;
-  margin-top: -10px;
 }
 
 .temp-unit {
-  margin-top: 30px;
   font-size: 30px;
+  margin-top: 19px;
 }
 
 .city-weather {
   display: flex;
-  margin-top: -20px;
+  align-items: center;
+  margin-left: -9px;
 }
 
-.weather-description {
-  margin-top: -15px;
-  margin-bottom: 10px;
-  margin-left: -20px;
-}
-
-.icon {
-  margin-left: -35px;
-  margin-top: -55px;
-  transform: scale(0.5);
+.icon img {
+  width: 40px;
 }
 
 .humidityWind {
-  margin-top: -30px;
   margin-bottom: 20px;
 }
 
+.city-humidity {
+  display: flex;
+  align-items: center;
+}
+
+.city-wind {
+  display: flex;
+  align-items: center;
+}
+
 .humidity {
-  margin-top: -20px;
-  margin-bottom: 20px;
+  padding-left: 8px;
+}
+.wind {
+  padding-left: 8px;
 }
 
 footer {

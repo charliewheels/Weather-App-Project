@@ -53,7 +53,9 @@ function formatDate(date) {
     minutes = `0${minutes}`;
   }
 
-  return `${day} ${month} ${hours}:${minutes}`;
+  let dayDate = date.getDate();
+
+  return `${day} ${month} ${dayDate}th ${hours}:${minutes}`;
 }
 
 function searchCity(city) {
